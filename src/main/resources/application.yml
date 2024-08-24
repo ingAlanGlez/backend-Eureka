@@ -7,9 +7,9 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
   instance:
-    hostname: ${EUREKA_HOST:localhost}
+    hostname: ${HOSTNAME:localhost}
     # ip-address: true
-    preferIpAddress: true
+    preferIpAddress: false
     non-secure-port-enabled: false
     secure-port-enabled: true
     non-secure-port: 80
