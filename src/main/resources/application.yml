@@ -1,5 +1,5 @@
 server:
-  port: 8761
+  port: ${PORT:8761}
 
 ## Eureka Server Configuration
 eureka:
@@ -9,7 +9,7 @@ eureka:
   instance:
     hostname: ${HOSTNAME:localhost}
     # ip-address: true
-    preferIpAddress: false
+    preferIpAddress: true
     non-secure-port-enabled: false
     secure-port-enabled: true
     non-secure-port: 80
