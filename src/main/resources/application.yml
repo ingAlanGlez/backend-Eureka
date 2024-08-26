@@ -9,7 +9,7 @@ eureka:
   instance:
     hostname: ${HOSTNAME:localhost}
     # ip-address: true
-    preferIpAddress: true
+    preferIpAddress: false
     non-secure-port-enabled: false
     secure-port-enabled: true
     non-secure-port: 80
